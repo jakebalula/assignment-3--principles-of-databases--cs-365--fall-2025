@@ -1,0 +1,123 @@
+/* Basic page style */
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Main container */
+.container {
+    width: 90%;
+    max-width: 900px;
+    margin: 40px auto;
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Headers */
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h2 {
+    margin-top: 35px;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 6px;
+}
+
+/* Messages */
+.message {
+    padding: 10px;
+    background: #e9f7ff;
+    border-left: 4px solid #2a8dd4;
+    margin-bottom: 20px;
+    border-radius: 4px;
+}
+
+/* Form sections */
+.form-section {
+    margin-bottom: 35px;
+}
+
+/* Form groups */
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="url"],
+input[type="email"],
+input[type="password"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #bbb;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background: #fafafa;
+}
+
+/* Buttons */
+button {
+    padding: 8px 15px;
+    background: #2a8dd4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #1b6aa2;
+}
+
+/* Delete button (red) */
+.delete-btn {
+    background: #d9534f;
+}
+
+.delete-btn:hover {
+    background: #b94441;
+}
+
+/* Clear results button (grey) */
+.clear-btn {
+    background: #777;
+}
+
+.clear-btn:hover {
+    background: #555;
+}
+
+/* Results table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+thead {
+    background: #2a8dd4;
+    color: white;
+}
+
+th,
+td {
+    text-align: left;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+tr:nth-child(even) {
+    background: #f9f9f9;
+}
