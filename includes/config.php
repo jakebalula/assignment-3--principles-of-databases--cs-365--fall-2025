@@ -5,6 +5,4 @@ define('DB_NAME', 'student_passwords');
 define('DB_USER', 'passwords_user');
 define('DB_PASS', '');
 define('DB_CHARSET', 'utf8mb4');
-
 define('AES_KEY', 'secret password');
-define('AES', 'aes-256-cbc');
